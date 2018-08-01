@@ -1,7 +1,5 @@
 import numpy as np
 import statsmodels.api as sm
-import statsmodels.formula.api as smf
-
 
 class DynamicRegression(sm.tsa.statespace.MLEModel):
     def __init__(self, endog, design):
