@@ -1,0 +1,2 @@
+# DynamicRegression
+building on statsmodels
