@@ -1,0 +1,2 @@
+# install anaconda for python 3.6
+conda env create -f conda_env.yml
