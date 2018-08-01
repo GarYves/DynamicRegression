@@ -38,7 +38,7 @@ class DynamicRegression(sm.tsa.statespace.MLEModel):
     @property
     def param_names(self):
         return (
-            ['obs{i}_cov' for i in range(self.k_endog)] 
+            [f'obs{i}_cov' for i in range(self.k_endog)] 
             + [f'state{i}_var' for i in range(self.k_states)]
         )
 
